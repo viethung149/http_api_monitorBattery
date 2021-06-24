@@ -1,0 +1,65 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Post extends Model
+{
+    protected $fillable = [
+        'VoltageCell_1',
+        'VoltageCell_2',
+        'VoltageCell_3',
+        'VoltageCell_4',
+        'VoltageCell_5',
+        'VoltageCell_6',
+        'VoltageCell_7',
+        'VoltageCell_8',
+        'TemperatureCell_1',
+        'TemperatureCell_2',
+        'TemperatureCell_3',
+        'TemperatureCell_4',
+        'TemperatureCell_5',
+        'TemperatureCell_6',
+        'TemperatureCell_7',
+        'TemperatureCell_8',
+        'VoltageStatus_1',
+        'VoltageStatus_2',
+        'VoltageStatus_3',
+        'VoltageStatus_4',
+        'VoltageStatus_5',
+        'VoltageStatus_6',
+        'VoltageStatus_7',
+        'VoltageStatus_8',
+        'TemperatureStatus_1',
+        'TemperatureStatus_2',
+        'TemperatureStatus_3',
+        'TemperatureStatus_4',
+        'TemperatureStatus_5',
+        'TemperatureStatus_6',
+        'TemperatureStatus_7',
+        'TemperatureStatus_8',
+        'VoltagePackage_1',
+        'VoltagePackage_2',
+        'VoltagePackage_3',
+        'TemperaturePackage_1',
+        'TemperaturePackage_2',
+        'TemperaturePackage_3',
+        'CurrentPackage_1',
+        'CurrentPackage_2',
+        'CurrentPackage_3',
+        'ConnectPackage_1',
+        'ConnectPackage_2',
+        'ConnectPackage_3',
+        'StatusVoltagePackage_1',
+        'StatusVoltagePackage_2',
+        'StatusVoltagePackage_3',
+        'StatusTemperaturePackage_1',
+        'StatusTemperaturePackage_2',
+        'StatusTemperaturePackage_3',
+        'Peripheral_1',
+        'Peripheral_2',
+        'Peripheral_3',
+        'Peripheral_4'
+    ];
+}
